@@ -10,15 +10,11 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
+    <!--Style CSS-->
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
     <!--Declaring Title-->
     <title> The Holiday Giphy Page </title>
 
@@ -26,35 +22,33 @@
 
 <body>
 
-    <!--Container and Jumbotron-->
     <div class="container">
         <div class="jumbotron">
-            <h1> The Holiday Giphy Page</h1>
+            <h1>The Holiday Giphy Page</h1>
         </div>
-
-        <!--Row & Colums for display buttons-->
+    
         <div class="row">
-            <div class="col-md-12" id="buttons"></div>
+            <div class="col-md-12" id="display-buttons"></div>
         </div>
-
-        <!--Row & Columns for the Input Forms-->
+    
         <div class="row">
             <div class="col-md-12">
                 <form id="form">
-                    <label for="input-box">Enter a Holiday, see the GIPHY show</label>
-                    <label type="text" id="input=box">
-                        <input id="submitPress" type="submit" class="btn btn-default">
+                    <label for="user-input">Enter a Holiday and see the magic!</label><br>
+                    <input type="text" id="user-input">
+                    <input id="submitPress" type="submit" value="Submit" class="btn btn-default">
                 </form>
             </div>
         </div>
-
-        <!--Row & Column to display images-->
+    
         <div class="row">
-            <div class="col-md-12" id="images"></div>
+            <div class="col-md-12" id="display-images"></div>
         </div>
-    </div>
-
+    
+    </div>    
     <!--app.js placeholder-->
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body> 
 
 </html>
